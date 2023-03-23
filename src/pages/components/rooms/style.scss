@@ -1,0 +1,69 @@
+@import '../../../assets/style/mixin.scss';
+
+.L-rooms-block{
+    width: 100%;
+    margin-top: 40px;
+    background-color: #f1f1f1;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+
+    .L-rooms-content{
+        width: 100%;
+        padding: 20px 10px;
+
+        .L-rooms-title{
+            margin: 10px 0;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .L-rooms-text{
+            margin: 15px 0;
+            font-size: 15px;
+        }
+
+        .L-rooms-inputs{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+
+            .L-rooms-input-div{
+                width: 19%;
+
+                .L-rooms-input{
+                    width: 100%;
+                    padding: 13px 10px;
+                    border: 1px solid gray;
+                }
+            }
+        .L-rooms-btn{
+            width: 100%;
+            padding: 13px 10px;
+            font-size: 15px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+
+            .icon-search{
+                margin-right: 20px;
+            }
+
+            &:hover{
+                background-color: rgb(215, 211, 211);
+                color: black;
+            }
+        }
+    }
+
+    .L-rooms-rooms{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        @include screen(550px){
+        
+            flex-direction: column;
+            
+        }
+    }
+}
+}

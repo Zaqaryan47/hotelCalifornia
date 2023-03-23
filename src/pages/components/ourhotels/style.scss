@@ -1,0 +1,77 @@
+.L-hotels-block{
+    width: 100%;
+    background-color: #f1f1f1;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+
+    .L-hotels-content{
+        width: 100%;
+        padding: 20px 10px;
+
+        .L-hotels-title{
+            margin: 10px 0;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .L-hotels-text{
+            margin: 15px 0;
+            font-size: 15px;
+        }
+
+        .L-hotels-cities{
+            width: 100%;
+                display: flex;
+        
+           
+            background-color: lightsalmon;
+
+            .item1{
+                margin-left: 10px;
+
+            }
+            .item2{
+                width: 53%;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+            }
+        }
+
+        .L-hotels-black{
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 32px 15px;
+            opacity: 0.7;
+
+            .L-hotels-label{
+                display: block;
+                margin: 5px 0;
+            }
+            .L-hotels-inputs{
+                width: 100%;
+                padding: 12px 10px;
+                font-size: 16px;
+            }
+            .L-hotels-btn{
+                padding: 12px 16px;
+                margin-top: 16px;
+                background-color: #f44336;
+                color: white;
+                text-align: center;
+                border: none;
+                font-size: 16px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: rgb(215, 211, 211);
+                    color: black;
+                }
+            }
+
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}

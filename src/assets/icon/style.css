@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?bwvlju');
+  src:  url('fonts/icomoon.eot?bwvlju#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bwvlju') format('truetype'),
+    url('fonts/icomoon.woff?bwvlju') format('woff'),
+    url('fonts/icomoon.svg?bwvlju#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+  content: "\e900";
+}
+.icon-mail-envelope-closed:before {
+  content: "\e905";
+}
+.icon-bed:before {
+  content: "\e90c";
+}
+.icon-info:before {
+  content: "\e901";
+}
+.icon-cc-paypal:before {
+  content: "\e902";
+}
+.icon-cc-amex:before {
+  content: "\e904";
+}
+.icon-cc-mastercard:before {
+  content: "\e906";
+}
+.icon-cutlery:before {
+  content: "\e907";
+}
+.icon-television:before {
+  content: "\e908";
+}
+.icon-tv:before {
+  content: "\e908";
+}
+.icon-bath:before {
+  content: "\e909";
+}
+.icon-bathtub:before {
+  content: "\e909";
+}
+.icon-s15:before {
+  content: "\e909";
+}
+.icon-male:before {
+  content: "\e90a";
+}
+.icon-child:before {
+  content: "\e90b";
+}
+.icon-snapchat:before {
+  content: "\e903";
+}
+.icon-connection:before {
+  content: "\e91b";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-glass2:before {
+  content: "\e9a1";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}

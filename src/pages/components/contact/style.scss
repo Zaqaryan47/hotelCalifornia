@@ -1,0 +1,58 @@
+.L-contact-block{
+    width: 100%;
+    background-color: #f1f1f1;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+
+    .L-contact-content{
+        width: 100%;
+        padding: 20px 10px;
+
+        .L-contact-title{
+            margin: 10px 0;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .L-contact-text{
+            margin: 15px 0;
+            font-size: 15px;
+        }
+        .L-contact-contact{
+            line-height: 1.5;
+            letter-spacing: 1px;
+
+            .L-contact-icon{
+                color: #f44336;
+                margin-right: 10px;
+            }
+        }
+        .L-contact-inputs{
+            width: 100%;
+            height: 300px;
+
+            .L-contact-input{
+                width: 100%;
+                font-size: 16px;
+                padding: 16px 10px;
+                margin: 10px 0;
+            }
+            .L-contact-btn{
+                padding: 14px 16px;
+                margin-top: 10px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                border: none;
+                font-weight: 400;
+                font-size: 16px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: rgb(215, 211, 211);
+                    color: black;
+                }
+            }
+        }
+    }
+}
